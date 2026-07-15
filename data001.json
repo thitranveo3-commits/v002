@@ -2,124 +2,343 @@
   "version": "1.0",
   "lessons": [
     {
-      "id": 1,
-      "title": "☕ Ordering Coffee",
-      "icon": "☕",
-      "subtitle": "Gọi cà phê",
-      "videoUrl": "https://www.youtube.com/watch?v=ZQ8tBXpO_cY",
-      "sentences": [
-        { "en": "Good morning! What can I get for you today?", "vi": "Chào buổi sáng! Hôm nay tôi có thể phục vụ gì cho bạn?", "ipa": "ɡʊd ˈmɔːrnɪŋ | wɒt kæn aɪ ɡet fɔːr juː təˈdeɪ" },
-        { "en": "I'd like a cappuccino, please.", "vi": "Làm ơn cho tôi một cốc cappuccino.", "ipa": "aɪd laɪk ə ˌkæpʊˈtʃiːnoʊ | pliːz" },
-        { "en": "Sure, would you like anything to eat with that?", "vi": "Được chứ, bạn có muốn ăn kèm gì không?", "ipa": "ʃʊr | wʊd juː laɪk ˈeniθɪŋ tə iːt wɪð ðæt" },
-        { "en": "Yes, I'll have a croissant too.", "vi": "Có, tôi cũng muốn một cái bánh sừng bò.", "ipa": "jes | aɪl hæv ə krwɑːˈsɑ̃ː tuː" },
-        { "en": "That'll be $7.50. How would you like to pay?", "vi": "Tổng cộng 7.50 đô. Bạn muốn thanh toán bằng cách nào?", "ipa": "ðætl biː ˈsɛvən ˈfɪfti | haʊ wʊd juː laɪk tə peɪ" },
-        { "en": "I'll pay by card, please.", "vi": "Tôi thanh toán bằng thẻ.", "ipa": "aɪl peɪ baɪ kɑːrd | pliːz" },
-        { "en": "Here's your order. Enjoy your coffee!", "vi": "Đây là đồ của bạn. Thưởng thức cà phê nhé!", "ipa": "hɪərz jɔːr ˈɔːrdər | ɪnˈdʒɔɪ jɔːr ˈkɒfi" }
-      ],
-      "vocabulary": [
-        { "word": "cappuccino", "meaning": "cà phê cappuccino" },
-        { "word": "croissant", "meaning": "bánh sừng bò" },
-        { "word": "pay by card", "meaning": "thanh toán bằng thẻ" },
-        { "word": "enjoy", "meaning": "thưởng thức" },
-        { "word": "Good morning", "meaning": "chào buổi sáng" },
-        { "word": "order", "meaning": "gọi món / đặt hàng" },
-        { "word": "coffee", "meaning": "cà phê" },
-        { "word": "sure", "meaning": "được chứ / chắc chắn" },
-        { "word": "please", "meaning": "làm ơn / vui lòng" },
-        { "word": "today", "meaning": "hôm nay" },
-        { "word": "like", "meaning": "thích / muốn" },
-        { "word": "eat", "meaning": "ăn" }
-      ]
-    },
+  "id": 1,
+  "title": "1.Wake Up",
+  "icon": "🌅",
+  "subtitle": "Thức dậy",
+  "sentences": [
+    { "en": "Wake up, Lucy.", "vi": "Thức dậy đi con, Lucy.", "ipa": "weɪk ʌp ˈluːsi" },
+    { "en": "I'm sleepy.", "vi": "Con vẫn còn buồn ngủ lắm.", "ipa": "aɪm ˈsliːpi" },
+    { "en": "Get up now.", "vi": "Rời khỏi giường ngay đi nào.", "ipa": "ɡet ʌp naʊ" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" }
+  ],
+  "vocabulary": [
+    { "word": "wake up", "meaning": "thức dậy (mở mắt)" },
+    { "word": "sleepy", "meaning": "buồn ngủ" },
+    { "word": "get up", "meaning": "rời khỏi giường" },
+    { "word": "now", "meaning": "ngay bây giờ" },
+    { "word": "okay", "meaning": "dạ / được ạ" }
+  ]
+},
     {
-      "id": 2,
-      "title": "👋 Introducing Yourself",
-      "icon": "👋",
-      "subtitle": "Giới thiệu bản thân",
-      "videoUrl": "https://www.youtube.com/watch?v=XJf1d5q8mSo",
-      "sentences": [
-        { "en": "Hi, I'm Alex. Nice to meet you!", "vi": "Chào, tôi là Alex. Rất vui được gặp bạn!", "ipa": "haɪ | aɪm ˈælɪks | naɪs tə miːt juː" },
-        { "en": "Hello Alex, my name is Maria.", "vi": "Chào Alex, tên tôi là Maria.", "ipa": "həˈloʊ ˈælɪks | maɪ neɪm ɪz məˈriːə" },
-        { "en": "Where are you from, Maria?", "vi": "Bạn đến từ đâu vậy Maria?", "ipa": "wɛr ɑːr juː frʌm | məˈriːə" },
-        { "en": "I'm from Spain, but I live in London now.", "vi": "Tôi đến từ Tây Ban Nha, nhưng hiện sống ở London.", "ipa": "aɪm frʌm speɪn | bʌt aɪ lɪv ɪn ˈlʌndən naʊ" },
-        { "en": "What do you do for a living?", "vi": "Bạn làm nghề gì?", "ipa": "wɒt duː juː duː fɔːr ə ˈlɪvɪŋ" },
-        { "en": "I work as a graphic designer.", "vi": "Tôi làm thiết kế đồ họa.", "ipa": "aɪ wɜːrk æz ə ˈɡræfɪk dɪˈzaɪnər" },
-        { "en": "That sounds interesting! I'm a teacher.", "vi": "Nghe thú vị đấy! Tôi là giáo viên.", "ipa": "ðæt saʊndz ˈɪntrəstɪŋ | aɪm ə ˈtiːtʃər" },
-        { "en": "Great to meet you. Let's keep in touch!", "vi": "Rất vui được gặp bạn. Hãy giữ liên lạc nhé!", "ipa": "ɡreɪt tə miːt juː | lets kiːp ɪn tʌtʃ" }
-      ],
-      "vocabulary": [
-        { "word": "nice to meet you", "meaning": "rất vui được gặp bạn" },
-        { "word": "graphic designer", "meaning": "nhà thiết kế đồ hoạ" },
-        { "word": "keep in touch", "meaning": "giữ liên lạc" },
-        { "word": "interesting", "meaning": "thú vị" },
-        { "word": "name", "meaning": "tên" },
-        { "word": "from", "meaning": "từ (đến từ)" },
-        { "word": "live", "meaning": "sống" },
-        { "word": "work as", "meaning": "làm việc với tư cách" },
-        { "word": "teacher", "meaning": "giáo viên" },
-        { "word": "meet", "meaning": "gặp" },
-        { "word": "great", "meaning": "tuyệt vời" },
-        { "word": "hello", "meaning": "xin chào" }
-      ]
-    },
+  "id": 2,
+  "title": "2.Brushing Teeth",
+  "icon": "🪥",
+  "subtitle": "Đánh răng",
+  "sentences": [
+    { "en": "Brush your teeth, Lucy.", "vi": "Con đánh răng đi, Lucy.", "ipa": "brʌʃ jʊr tiːθ ˈluːsi" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Good job.", "vi": "Tốt lắm.", "ipa": "ɡʊd dʒɑːb" },
+    { "en": "I'm brushing.", "vi": "Con đang đánh răng đây ạ.", "ipa": "aɪm ˈbrʌʃɪŋ" }
+  ],
+  "vocabulary": [
+    { "word": "brush", "meaning": "chải / đánh (răng)" },
+    { "word": "teeth", "meaning": "răng" },
+    { "word": "brush your teeth", "meaning": "đánh răng" },
+    { "word": "okay", "meaning": "dạ / được ạ" },
+    { "word": "good job", "meaning": "tốt lắm / làm tốt lắm" },
+    { "word": "brushing", "meaning": "đang đánh răng" }
+  ]
+},
+   
     {
-      "id": 3,
-      "title": "🗺️ Asking for Directions",
-      "icon": "🗺️",
-      "subtitle": "Hỏi đường",
-      "videoUrl": "https://www.youtube.com/watch?v=W8K0X-gBKt4",
-      "sentences": [
-        { "en": "Excuse me, where is the nearest bank?", "vi": "Xin lỗi, ngân hàng gần nhất ở đâu?", "ipa": "ɪkˈskjuːz miː | wɛr ɪz ðə ˈnɪrɪst bæŋk" },
-        { "en": "Go straight ahead for two blocks.", "vi": "Đi thẳng khoảng hai dãy nhà.", "ipa": "ɡoʊ streɪt əˈhɛd fɔːr tuː blɒks" },
-        { "en": "Then turn right at the corner.", "vi": "Sau đó rẽ phải ở góc đường.", "ipa": "ðɛn tɜːrn raɪt æt ðə ˈkɔːrnər" },
-        { "en": "The bank is next to the supermarket.", "vi": "Ngân hàng ở bên cạnh siêu thị.", "ipa": "ðə bæŋk ɪz nɛkst tə ðə ˈsuːpərˌmɑːrkɪt" },
-        { "en": "How long does it take to walk there?", "vi": "Đi bộ đến đó mất bao lâu?", "ipa": "haʊ lɔːŋ dʌz ɪt teɪk tə wɔːk ðɛr" },
-        { "en": "It's about 10 minutes on foot.", "vi": "Khoảng 10 phút đi bộ.", "ipa": "ɪts əˈbaʊt ˈtɛn ˈmɪnɪts ɒn fʊt" },
-        { "en": "Thank you very much for your help!", "vi": "Cảm ơn bạn rất nhiều!", "ipa": "θæŋk juː ˈvɛri mʌtʃ fɔːr jɔːr hɛlp" }
-      ],
-      "vocabulary": [
-        { "word": "straight ahead", "meaning": "đi thẳng" },
-        { "word": "turn right", "meaning": "rẽ phải" },
-        { "word": "on foot", "meaning": "đi bộ" },
-        { "word": "excuse me", "meaning": "xin lỗi (làm phiền)" },
-        { "word": "bank", "meaning": "ngân hàng" },
-        { "word": "nearest", "meaning": "gần nhất" },
-        { "word": "go straight", "meaning": "đi thẳng" },
-        { "word": "corner", "meaning": "góc đường" },
-        { "word": "supermarket", "meaning": "siêu thị" },
-        { "word": "walk", "meaning": "đi bộ" }
-      ]
-    },
+  "id": 3,
+  "title": "3.Washing Your Face",
+  "icon": "💦",
+  "subtitle": "Rửa mặt",
+  "sentences": [
+    { "en": "Wash your face, Lucy.", "vi": "Con rửa mặt đi, Lucy.", "ipa": "wɑːʃ jʊr feɪs ˈluːsi" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Good girl.", "vi": "Con gái ngoan lắm.", "ipa": "ɡʊd ɡɜːrl" },
+    { "en": "I feel fresh.", "vi": "Con cảm thấy sảng khoái rồi ạ.", "ipa": "aɪ fiːl freʃ" }
+  ],
+  "vocabulary": [
+    { "word": "wash", "meaning": "rửa" },
+    { "word": "wash your face", "meaning": "rửa mặt" },
+    { "word": "good girl", "meaning": "cô bé ngoan / ngoan lắm" },
+    { "word": "feel fresh", "meaning": "cảm thấy mát mẻ / cảm thấy sảng khoái" }
+  ]
+},
     {
-      "id": 4,
-      "title": "🏨 Hotel Check-in",
-      "icon": "🏨",
-      "subtitle": "Nhận phòng khách sạn",
-      "videoUrl": "https://www.youtube.com/watch?v=Jj4JZlwQv5k",
-      "sentences": [
-        { "en": "Good evening. I have a reservation.", "vi": "Chào buổi tối. Tôi có đặt phòng.", "ipa": "ɡʊd ˈiːvnɪŋ | aɪ hæv ə ˌrɛzərˈveɪʃən" },
-        { "en": "Welcome, sir. Let me check you in.", "vi": "Chào mừng anh. Để tôi làm thủ tục nhận phòng.", "ipa": "ˈwɛlkəm | sɜːr | lɛt miː tʃɛk juː ɪn" },
-        { "en": "Could I see your passport, please?", "vi": "Cho tôi xem hộ chiếu được không?", "ipa": "kʊd aɪ siː jɔːr ˈpæspɔːrt | pliːz" },
-        { "en": "Your room is on the 5th floor, room 502.", "vi": "Phòng của anh ở tầng 5, phòng 502.", "ipa": "jɔːr ruːm ɪz ɒn ðə fɪfθ flɔːr | ruːm faɪv oʊ tuː" },
-        { "en": "Does the room have free Wi-Fi?", "vi": "Phòng có Wi-Fi miễn phí không?", "ipa": "dʌz ðə ruːm hæv friː ˈwaɪ faɪ" },
-        { "en": "Yes, the password is on the key card.", "vi": "Có, mật khẩu ở trên thẻ phòng.", "ipa": "jes | ðə ˈpæswɜːrd ɪz ɒn ðə kiː kɑːrd" },
-        { "en": "What time is breakfast served?", "vi": "Bữa sáng được phục vụ lúc mấy giờ?", "ipa": "wɒt taɪm ɪz ˈbrɛkfəst sɜːrvd" },
-        { "en": "Breakfast is from 7 to 10 AM.", "vi": "Bữa sáng từ 7 đến 10 giờ sáng.", "ipa": "ˈbrɛkfəst ɪz frʌm ˈsɛvən tə tɛn eɪ ɛm" }
-      ],
-      "vocabulary": [
-        { "word": "reservation", "meaning": "đặt trước" },
-        { "word": "passport", "meaning": "hộ chiếu" },
-        { "word": "key card", "meaning": "thẻ phòng" },
-        { "word": "breakfast", "meaning": "bữa sáng" },
-        { "word": "welcome", "meaning": "chào mừng" },
-        { "word": "check in", "meaning": "nhận phòng" },
-        { "word": "floor", "meaning": "tầng" },
-        { "word": "room", "meaning": "phòng" },
-        { "word": "free", "meaning": "miễn phí" },
-        { "word": "password", "meaning": "mật khẩu" },
-        { "word": "served", "meaning": "được phục vụ" },
-        { "word": "have", "meaning": "có" }
-      ]
-    }
+  "id": 4,
+  "title": "4.Brush Your Hair",
+  "icon": "🪮",
+  "subtitle": "Chải tóc",
+  "sentences": [
+    { "en": "Did you brush your hair?", "vi": "Con đã chải tóc chưa?", "ipa": "dɪd juː brʌʃ jʊr her" },
+    { "en": "Not yet.", "vi": "Dạ chưa ạ.", "ipa": "nɑːt jet" },
+    { "en": "Please brush it before school.", "vi": "Con hãy chải tóc trước khi đến trường nhé.", "ipa": "pliːz brʌʃ ɪt bɪˈfɔːr skuːl" },
+    { "en": "Okay, Dad.", "vi": "Dạ vâng, thưa ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "You look great now.", "vi": "Bây giờ trông con rất tuyệt.", "ipa": "juː lʊk ɡreɪt naʊ" },
+    { "en": "Thank you!", "vi": "Con cảm ơn ba!", "ipa": "θæŋk juː" }
+  ],
+  "vocabulary": [
+    { "word": "brush", "meaning": "chải" },
+    { "word": "hair", "meaning": "tóc" },
+    { "word": "brush your hair", "meaning": "chải tóc" },
+    { "word": "not yet", "meaning": "chưa ạ" },
+    { "word": "before", "meaning": "trước khi" },
+    { "word": "before school", "meaning": "trước khi đến trường" },
+    { "word": "look", "meaning": "trông có vẻ / nhìn" },
+    { "word": "great", "meaning": "tuyệt vời" },
+    { "word": "look great", "meaning": "trông rất tuyệt" }
+  ]
+},
+   {
+  "id": 5,
+  "title": "5.Morning Routine",
+  "icon": "🪥",
+  "subtitle": "Vệ sinh buổi sáng",
+  "sentences": [
+    { "en": "Did you brush your teeth and wash your face?", "vi": "Con đã đánh răng và rửa mặt chưa?", "ipa": "dɪd juː brʌʃ jʊr tiːθ ənd wɑːʃ jʊr feɪs" },
+    { "en": "Yes, I did.", "vi": "Dạ con làm rồi ạ.", "ipa": "jes aɪ dɪd" },
+    { "en": "Great! Let's have breakfast.", "vi": "Tuyệt lắm! Chúng ta đi ăn sáng thôi.", "ipa": "ɡreɪt | lets hæv ˈbrekfəst" },
+    { "en": "Okay!", "vi": "Dạ vâng ạ!", "ipa": "ˌoʊˈkeɪ" }
+  ],
+  "vocabulary": [
+    { "word": "brush", "meaning": "chải / đánh" },
+    { "word": "teeth", "meaning": "răng" },
+    { "word": "brush your teeth", "meaning": "đánh răng" },
+    { "word": "wash", "meaning": "rửa" },
+    { "word": "face", "meaning": "khuôn mặt" },
+    { "word": "wash your face", "meaning": "rửa mặt" },
+    { "word": "breakfast", "meaning": "bữa sáng" },
+    { "word": "have breakfast", "meaning": "ăn sáng" }
+  ]
+},
+    {
+  "id": 6,
+  "title": "6.Eating Breakfast",
+  "icon": "🍳",
+  "subtitle": "Ăn sáng",
+  "sentences": [
+    { "en": "Good morning, Lucy. Eat your breakfast.", "vi": "Chào buổi sáng, Lucy. Con ăn bữa sáng đi.", "ipa": "ɡʊd ˈmɔːrnɪŋ ˈluːsi | iːt jʊr ˈbrekfəst" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Is it yummy?", "vi": "Có ngon không con?", "ipa": "ɪz ɪt ˈjʌmi" },
+    { "en": "Yes, it's delicious.", "vi": "Dạ có, ngon tuyệt vời luôn ạ.", "ipa": "jes | ɪts dɪˈlɪʃəs" }
+  ],
+  "vocabulary": [
+    { "word": "good morning", "meaning": "chào buổi sáng" },
+    { "word": "eat", "meaning": "ăn" },
+    { "word": "breakfast", "meaning": "bữa sáng" },
+    { "word": "eat your breakfast", "meaning": "ăn bữa sáng của con đi" },
+    { "word": "yummy", "meaning": "ngon (từ ngữ trẻ em hay dùng)" },
+    { "word": "delicious", "meaning": "thơm ngon / ngon miệng" }
+  ]
+},
+   {
+  "id": 7,
+  "title": "7.School Uniform",
+  "icon": "👔",
+  "subtitle": "Mặc đồng phục",
+  "sentences": [
+    { "en": "Put on your school uniform, Lucy.", "vi": "Con mặc đồng phục học sinh vào đi, Lucy.", "ipa": "pʊt ɑːn jʊr skuːl ˈjuːnɪfɔːrm ˈluːsi" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Good job.", "vi": "Tốt lắm.", "ipa": "ɡʊd dʒɑːb" },
+    { "en": "I'm ready.", "vi": "Con sẵn sàng rồi ạ.", "ipa": "aɪm ˈredi" }
+  ],
+  "vocabulary": [
+    { "word": "put on", "meaning": "mặc vào / mang vào" },
+    { "word": "school uniform", "meaning": "đồng phục học sinh" },
+    { "word": "okay", "meaning": "dạ / được ạ" },
+    { "word": "good job", "meaning": "tốt lắm / làm tốt lắm" },
+    { "word": "ready", "meaning": "sẵn sàng" }
+  ]
+},
+    {
+  "id": 8,
+  "title": "8.Water Bottle",
+  "icon": "🎒",
+  "subtitle": "Mang bình nước",
+  "sentences": [
+    { "en": "Lucy, where is your water bottle?", "vi": "Lucy ơi, bình nước của con đâu rồi?", "ipa": "ˈluːsi | wer ɪz jʊr ˈwɔːtər ˈbɑːtl" },
+    { "en": "It's on the table.", "vi": "Nó ở trên bàn ạ.", "ipa": "ɪts ɑːn ðə ˈteɪbl" },
+    { "en": "Please put it in your backpack.", "vi": "Làm ơn cất nó vào trong ba lô của con đi.", "ipa": "pliːz pʊt ɪt ɪn jʊr ˈbækpæk" },
+    { "en": "Okay, Dad. It's in my backpack now.", "vi": "Dạ được ạ, ba. Bây giờ nó ở trong ba lô của con rồi.", "ipa": "ˌoʊˈkeɪ dæd | ɪts ɪn maɪ ˈbækpæk naʊ" },
+    { "en": "Great! Now we're ready to go.", "vi": "Tuyệt vời! Bây giờ chúng ta sẵn sàng đi rồi.", "ipa": "ɡreɪt | naʊ wɪr ˈredi tə ɡoʊ" },
+    { "en": "Let's go!", "vi": "Đi thôi nào!", "ipa": "lets ɡoʊ" }
+  ],
+  "vocabulary": [
+    { "word": "water bottle", "meaning": "bình nước" },
+    { "word": "on the table", "meaning": "ở trên bàn" },
+    { "word": "backpack", "meaning": "ba lô" },
+    { "word": "put it in", "meaning": "bỏ nó vào trong" },
+    { "word": "ready to go", "meaning": "sẵn sàng để đi" },
+    { "word": "let's go", "meaning": "đi thôi nào" }
+  ]
+},
+    {
+  "id": 9,
+  "title": "9.Put On Your Shoes",
+  "icon": "👟",
+  "subtitle": "Mang giày",
+  "sentences": [
+    { "en": "Have you put on your shoes?", "vi": "Con đã mang giày vào chưa?", "ipa": "hæv juː pʊt ɑːn jʊr ʃuːz" },
+    { "en": "Not yet.", "vi": "Dạ chưa ạ.", "ipa": "nɑːt jet" },
+    { "en": "Please put them on.", "vi": "Con hãy mang giày vào nhé.", "ipa": "pliːz pʊt ðem ɑːn" },
+    { "en": "Okay.", "vi": "Dạ vâng.", "ipa": "ˌoʊˈkeɪ" },
+    { "en": "Great! We're ready to go.", "vi": "Tuyệt lắm! Chúng ta sẵn sàng đi thôi.", "ipa": "ɡreɪt | wɪr ˈredi tə ɡoʊ" },
+    { "en": "Let's go!", "vi": "Đi thôi nào!", "ipa": "lets ɡoʊ" }
+  ],
+  "vocabulary": [
+    { "word": "put on", "meaning": "mang vào / mặc vào" },
+    { "word": "shoes", "meaning": "đôi giày" },
+    { "word": "not yet", "meaning": "chưa ạ" },
+    { "word": "please", "meaning": "xin vui lòng / làm ơn" },
+    { "word": "great", "meaning": "tuyệt lắm" },
+    { "word": "ready", "meaning": "sẵn sàng" },
+    { "word": "ready to go", "meaning": "sẵn sàng để đi" },
+    { "word": "let's go", "meaning": "đi thôi nào" }
+  ]
+},
+    {
+  "id": 10,
+  "title": "10.Find Your Helmet",
+  "icon": "🪖",
+  "subtitle": "Tìm mũ bảo hiểm",
+  "sentences": [
+    { "en": "Dad, where is my helmet?", "vi": "Ba ơi, mũ bảo hiểm của con ở đâu ạ?", "ipa": "dæd | wer ɪz maɪ ˈhelmɪt" },
+    { "en": "It's on the shoe rack.", "vi": "Nó ở trên giá để giày đó con.", "ipa": "ɪts ɑːn ðə ʃuː ræk" },
+    { "en": "I found it.", "vi": "Con tìm thấy rồi ạ.", "ipa": "aɪ faʊnd ɪt" },
+    { "en": "Great! Put it on.", "vi": "Tuyệt lắm! Đội nó vào đi con.", "ipa": "ɡreɪt | pʊt ɪt ɑːn" },
+    { "en": "Okay, Dad.", "vi": "Dạ vâng, thưa ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Now we're ready to go!", "vi": "Bây giờ chúng ta sẵn sàng đi thôi!", "ipa": "naʊ wɪr ˈredi tə ɡoʊ" }
+  ],
+  "vocabulary": [
+    { "word": "helmet", "meaning": "mũ bảo hiểm" },
+    { "word": "where is", "meaning": "ở đâu" },
+    { "word": "shoe rack", "meaning": "giá để giày" },
+    { "word": "found", "meaning": "đã tìm thấy" },
+    { "word": "put it on", "meaning": "đội nó vào / mặc nó vào" },
+    { "word": "ready to go", "meaning": "sẵn sàng để đi" }
+  ]
+},
+    {
+  "id": 11,
+  "title": "11.Ready to Go",
+  "icon": "🔑",
+  "subtitle": "Sẵn sàng ra ngoài",
+  "sentences": [
+    { "en": "Dad, do you have the keys?", "vi": "Ba ơi, ba có chìa khóa không ạ?", "ipa": "dæd | duː juː hæv ðə kiːz" },
+    { "en": "Yes, I do.", "vi": "Có, ba có.", "ipa": "jes | aɪ duː" },
+    { "en": "Are we ready to go?", "vi": "Chúng ta sẵn sàng đi chưa ạ?", "ipa": "ɑːr wiː ˈredi tə ɡoʊ" },
+    { "en": "Yes, we are.", "vi": "Rồi, chúng ta sẵn sàng rồi.", "ipa": "jes | wiː ɑːr" },
+    { "en": "Let's go!", "vi": "Đi thôi nào!", "ipa": "lets ɡoʊ" },
+    { "en": "Have a great day!", "vi": "Chúc con một ngày tuyệt vời!", "ipa": "hæv ə ɡreɪt deɪ" }
+  ],
+  "vocabulary": [
+    { "word": "keys", "meaning": "chìa khóa" },
+    { "word": "have the keys", "meaning": "có chìa khóa" },
+    { "word": "ready", "meaning": "sẵn sàng" },
+    { "word": "ready to go", "meaning": "sẵn sàng để đi" },
+    { "word": "let's go", "meaning": "đi thôi nào" },
+    { "word": "have a great day", "meaning": "chúc một ngày tốt lành" }
+  ]
+},
+    {
+  "id": 12,
+  "title": "12.Leaving the House",
+  "icon": "🚪",
+  "subtitle": "Rời khỏi nhà",
+  "sentences": [
+    { "en": "Is everything ready?", "vi": "Mọi thứ đã sẵn sàng chưa con?", "ipa": "ɪz ˈevriθɪŋ ˈredi" },
+    { "en": "Yes, everything is ready.", "vi": "Dạ rồi, mọi thứ đã sẵn sàng rồi ạ.", "ipa": "jes | ˈevriθɪŋ ɪz ˈredi" },
+    { "en": "Let's leave the house.", "vi": "Chúng ta rời nhà thôi nào.", "ipa": "lets liːv ðə haʊs" },
+    { "en": "Okay!", "vi": "Dạ được ạ!", "ipa": "ˌoʊˈkeɪ" },
+    { "en": "Have a great day at school.", "vi": "Chúc con có một ngày tuyệt vời ở trường nhé.", "ipa": "hæv ə ɡreɪt deɪ æt skuːl" },
+    { "en": "Thank you, Dad.", "vi": "Con cảm ơn ba ạ.", "ipa": "θæŋk juː dæd" }
+  ],
+  "vocabulary": [
+    { "word": "everything", "meaning": "mọi thứ" },
+    { "word": "ready", "meaning": "sẵn sàng" },
+    { "word": "leave", "meaning": "rời khỏi / đi ra khỏi" },
+    { "word": "house", "meaning": "ngôi nhà" },
+    { "word": "leave the house", "meaning": "rời khỏi nhà" },
+    { "word": "have a great day", "meaning": "chúc một ngày tốt lành" }
+  ]
+},
+    {
+  "id": 13,
+  "title": "13.Getting on the Motorbike",
+  "icon": "🏍️",
+  "subtitle": "Lên xe máy",
+  "sentences": [
+    { "en": "Are you ready?", "vi": "Con sẵn sàng chưa?", "ipa": "ɑːr juː ˈredi" },
+    { "en": "Yes, I am.", "vi": "Dạ rồi, con sẵn sàng rồi.", "ipa": "jes | aɪ æm" },
+    { "en": "Please get on the motorbike.", "vi": "Lên xe máy đi con.", "ipa": "pliːz ɡet ɑːn ðə ˈmoʊtərbaɪk" },
+    { "en": "Okay, Dad.", "vi": "Dạ được ạ, ba.", "ipa": "ˌoʊˈkeɪ dæd" },
+    { "en": "Hold on tight.", "vi": "Ôm chặt / Bám chắc vào nhé.", "ipa": "hoʊld ɑːn taɪt" },
+    { "en": "I will.", "vi": "Dạ con sẽ bám chặt ạ.", "ipa": "aɪ wɪl" }
+  ],
+  "vocabulary": [
+    { "word": "ready", "meaning": "sẵn sàng" },
+    { "word": "get on", "meaning": "lên (xe buýt / xe máy / tàu hỏa)" },
+    { "word": "motorbike", "meaning": "xe máy" },
+    { "word": "get on the motorbike", "meaning": "lên xe máy" },
+    { "word": "hold on", "meaning": "bám vào / vịn vào" },
+    { "word": "tight", "meaning": "chặt / chắc chắn" },
+    { "word": "hold on tight", "meaning": "ôm chặt vào / bám chắc vào" }
+  ]
+},
+    {
+  "id": 14,
+  "title": "14.Almost at School",
+  "icon": "🏫",
+  "subtitle": "Sắp đến trường",
+  "sentences": [
+    { "en": "Dad, are we close to school?", "vi": "Ba ơi, mình sắp đến trường chưa ạ?", "ipa": "dæd | ɑːr wiː kloʊs tə skuːl" },
+    { "en": "Yes, almost there.", "vi": "Ừ, sắp đến rồi con.", "ipa": "jes | ˈɔːlmoʊst ðer" },
+    { "en": "I'm so excited!", "vi": "Con háo hức quá!", "ipa": "aɪm soʊ ɪkˈsaɪtɪd" },
+    { "en": "I'm glad to hear that.", "vi": "Ba vui khi nghe con nói vậy.", "ipa": "aɪm ɡlæd tə hɪr ðæt" },
+    { "en": "I love going to school.", "vi": "Con thích đi học lắm.", "ipa": "aɪ lʌv ˈɡoʊɪŋ tə skuːl" },
+    { "en": "Have a great day, Lucy.", "vi": "Chúc con một ngày học thật vui nhé, Lucy.", "ipa": "hæv ə ɡreɪt deɪ ˈluːsi" }
+  ],
+  "vocabulary": [
+    { "word": "close to", "meaning": "gần / sắp đến" },
+    { "word": "school", "meaning": "trường học" },
+    { "word": "almost there", "meaning": "sắp đến rồi" },
+    { "word": "excited", "meaning": "háo hức" },
+    { "word": "glad", "meaning": "vui" },
+    { "word": "hear", "meaning": "nghe" },
+    { "word": "love going to school", "meaning": "thích đi học" },
+    { "word": "have a great day", "meaning": "chúc một ngày tốt lành" }
+  ]
+},
+    {
+  "id": 15,
+  "title": "15.Reading a Storybook",
+  "icon": "📖",
+  "subtitle": "Đọc sách truyện",
+  "sentences": [
+    { "en": "What are you reading?", "vi": "Con đang đọc gì thế?", "ipa": "wʌt ɑːr juː ˈriːdɪŋ" },
+    { "en": "I'm reading a storybook.", "vi": "Con đang đọc một cuốn sách truyện ạ.", "ipa": "aɪm ˈriːdɪŋ ə ˈstɔːribʊk" },
+    { "en": "Do you like it?", "vi": "Con có thích nó không?", "ipa": "duː juː laɪk ɪt" },
+    { "en": "Yes, it's very interesting!", "vi": "Dạ có, nó rất thú vị ạ!", "ipa": "jes | ɪts ˈveri ˈɪntrəstɪŋ" }
+  ],
+  "vocabulary": [
+    { "word": "reading", "meaning": "đang đọc" },
+    { "word": "storybook", "meaning": "sách truyện" },
+    { "word": "like it", "meaning": "thích nó" },
+    { "word": "interesting", "meaning": "thú vị" }
+  ]
+},
+    {
+  "id": 16,
+  "title": "16.Watching a Cartoon",
+  "icon": "📺",
+  "subtitle": "Xem phim hoạt hình",
+  "sentences": [
+    { "en": "What are you watching?", "vi": "Con đang xem cái gì thế?", "ipa": "wʌt ɑːr juː ˈwɑːtʃɪŋ" },
+    { "en": "I'm watching a cartoon.", "vi": "Con đang xem phim hoạt hình ạ.", "ipa": "aɪm ˈwɑːtʃɪŋ ə kɑːrˈtuːn" },
+    { "en": "Do you like it?", "vi": "Con có thích nó không?", "ipa": "duː juː laɪk ɪt" },
+    { "en": "Yes, I love it!", "vi": "Dạ có, con yêu thích nó lắm!", "ipa": "jes | aɪ lʌv ɪt" }
+  ],
+  "vocabulary": [
+    { "word": "watching", "meaning": "đang xem" },
+    { "word": "cartoon", "meaning": "phim hoạt hình" },
+    { "word": "like it", "meaning": "thích nó" },
+    { "word": "love it", "meaning": "yêu thích nó" }
+  ]
+}
   ]
 }
