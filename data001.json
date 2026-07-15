@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "☕ Ordering Coffee",
+      "icon": "☕",
+      "subtitle": "Gọi cà phê",
+      "videoUrl": "https://www.youtube.com/watch?v=ZQ8tBXpO_cY",
+      "sentences": [
+        { "en": "Good morning! What can I get for you today?", "vi": "Chào buổi sáng! Hôm nay tôi có thể phục vụ gì cho bạn?", "ipa": "ɡʊd ˈmɔːrnɪŋ | wɒt kæn aɪ ɡet fɔːr juː təˈdeɪ" },
+        { "en": "I'd like a cappuccino, please.", "vi": "Làm ơn cho tôi một cốc cappuccino.", "ipa": "aɪd laɪk ə ˌkæpʊˈtʃiːnoʊ | pliːz" },
+        { "en": "Sure, would you like anything to eat with that?", "vi": "Được chứ, bạn có muốn ăn kèm gì không?", "ipa": "ʃʊr | wʊd juː laɪk ˈeniθɪŋ tə iːt wɪð ðæt" },
+        { "en": "Yes, I'll have a croissant too.", "vi": "Có, tôi cũng muốn một cái bánh sừng bò.", "ipa": "jes | aɪl hæv ə krwɑːˈsɑ̃ː tuː" },
+        { "en": "That'll be $7.50. How would you like to pay?", "vi": "Tổng cộng 7.50 đô. Bạn muốn thanh toán bằng cách nào?", "ipa": "ðætl biː ˈsɛvən ˈfɪfti | haʊ wʊd juː laɪk tə peɪ" },
+        { "en": "I'll pay by card, please.", "vi": "Tôi thanh toán bằng thẻ.", "ipa": "aɪl peɪ baɪ kɑːrd | pliːz" },
+        { "en": "Here's your order. Enjoy your coffee!", "vi": "Đây là đồ của bạn. Thưởng thức cà phê nhé!", "ipa": "hɪərz jɔːr ˈɔːrdər | ɪnˈdʒɔɪ jɔːr ˈkɒfi" }
+      ],
+      "vocabulary": [
+        { "word": "cappuccino", "meaning": "cà phê cappuccino" },
+        { "word": "croissant", "meaning": "bánh sừng bò" },
+        { "word": "pay by card", "meaning": "thanh toán bằng thẻ" },
+        { "word": "enjoy", "meaning": "thưởng thức" },
+        { "word": "Good morning", "meaning": "chào buổi sáng" },
+        { "word": "order", "meaning": "gọi món / đặt hàng" },
+        { "word": "coffee", "meaning": "cà phê" },
+        { "word": "sure", "meaning": "được chứ / chắc chắn" },
+        { "word": "please", "meaning": "làm ơn / vui lòng" },
+        { "word": "today", "meaning": "hôm nay" },
+        { "word": "like", "meaning": "thích / muốn" },
+        { "word": "eat", "meaning": "ăn" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "👋 Introducing Yourself",
+      "icon": "👋",
+      "subtitle": "Giới thiệu bản thân",
+      "videoUrl": "https://www.youtube.com/watch?v=XJf1d5q8mSo",
+      "sentences": [
+        { "en": "Hi, I'm Alex. Nice to meet you!", "vi": "Chào, tôi là Alex. Rất vui được gặp bạn!", "ipa": "haɪ | aɪm ˈælɪks | naɪs tə miːt juː" },
+        { "en": "Hello Alex, my name is Maria.", "vi": "Chào Alex, tên tôi là Maria.", "ipa": "həˈloʊ ˈælɪks | maɪ neɪm ɪz məˈriːə" },
+        { "en": "Where are you from, Maria?", "vi": "Bạn đến từ đâu vậy Maria?", "ipa": "wɛr ɑːr juː frʌm | məˈriːə" },
+        { "en": "I'm from Spain, but I live in London now.", "vi": "Tôi đến từ Tây Ban Nha, nhưng hiện sống ở London.", "ipa": "aɪm frʌm speɪn | bʌt aɪ lɪv ɪn ˈlʌndən naʊ" },
+        { "en": "What do you do for a living?", "vi": "Bạn làm nghề gì?", "ipa": "wɒt duː juː duː fɔːr ə ˈlɪvɪŋ" },
+        { "en": "I work as a graphic designer.", "vi": "Tôi làm thiết kế đồ họa.", "ipa": "aɪ wɜːrk æz ə ˈɡræfɪk dɪˈzaɪnər" },
+        { "en": "That sounds interesting! I'm a teacher.", "vi": "Nghe thú vị đấy! Tôi là giáo viên.", "ipa": "ðæt saʊndz ˈɪntrəstɪŋ | aɪm ə ˈtiːtʃər" },
+        { "en": "Great to meet you. Let's keep in touch!", "vi": "Rất vui được gặp bạn. Hãy giữ liên lạc nhé!", "ipa": "ɡreɪt tə miːt juː | lets kiːp ɪn tʌtʃ" }
+      ],
+      "vocabulary": [
+        { "word": "nice to meet you", "meaning": "rất vui được gặp bạn" },
+        { "word": "graphic designer", "meaning": "nhà thiết kế đồ hoạ" },
+        { "word": "keep in touch", "meaning": "giữ liên lạc" },
+        { "word": "interesting", "meaning": "thú vị" },
+        { "word": "name", "meaning": "tên" },
+        { "word": "from", "meaning": "từ (đến từ)" },
+        { "word": "live", "meaning": "sống" },
+        { "word": "work as", "meaning": "làm việc với tư cách" },
+        { "word": "teacher", "meaning": "giáo viên" },
+        { "word": "meet", "meaning": "gặp" },
+        { "word": "great", "meaning": "tuyệt vời" },
+        { "word": "hello", "meaning": "xin chào" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "🗺️ Asking for Directions",
+      "icon": "🗺️",
+      "subtitle": "Hỏi đường",
+      "videoUrl": "https://www.youtube.com/watch?v=W8K0X-gBKt4",
+      "sentences": [
+        { "en": "Excuse me, where is the nearest bank?", "vi": "Xin lỗi, ngân hàng gần nhất ở đâu?", "ipa": "ɪkˈskjuːz miː | wɛr ɪz ðə ˈnɪrɪst bæŋk" },
+        { "en": "Go straight ahead for two blocks.", "vi": "Đi thẳng khoảng hai dãy nhà.", "ipa": "ɡoʊ streɪt əˈhɛd fɔːr tuː blɒks" },
+        { "en": "Then turn right at the corner.", "vi": "Sau đó rẽ phải ở góc đường.", "ipa": "ðɛn tɜːrn raɪt æt ðə ˈkɔːrnər" },
+        { "en": "The bank is next to the supermarket.", "vi": "Ngân hàng ở bên cạnh siêu thị.", "ipa": "ðə bæŋk ɪz nɛkst tə ðə ˈsuːpərˌmɑːrkɪt" },
+        { "en": "How long does it take to walk there?", "vi": "Đi bộ đến đó mất bao lâu?", "ipa": "haʊ lɔːŋ dʌz ɪt teɪk tə wɔːk ðɛr" },
+        { "en": "It's about 10 minutes on foot.", "vi": "Khoảng 10 phút đi bộ.", "ipa": "ɪts əˈbaʊt ˈtɛn ˈmɪnɪts ɒn fʊt" },
+        { "en": "Thank you very much for your help!", "vi": "Cảm ơn bạn rất nhiều!", "ipa": "θæŋk juː ˈvɛri mʌtʃ fɔːr jɔːr hɛlp" }
+      ],
+      "vocabulary": [
+        { "word": "straight ahead", "meaning": "đi thẳng" },
+        { "word": "turn right", "meaning": "rẽ phải" },
+        { "word": "on foot", "meaning": "đi bộ" },
+        { "word": "excuse me", "meaning": "xin lỗi (làm phiền)" },
+        { "word": "bank", "meaning": "ngân hàng" },
+        { "word": "nearest", "meaning": "gần nhất" },
+        { "word": "go straight", "meaning": "đi thẳng" },
+        { "word": "corner", "meaning": "góc đường" },
+        { "word": "supermarket", "meaning": "siêu thị" },
+        { "word": "walk", "meaning": "đi bộ" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "🏨 Hotel Check-in",
+      "icon": "🏨",
+      "subtitle": "Nhận phòng khách sạn",
+      "videoUrl": "https://www.youtube.com/watch?v=Jj4JZlwQv5k",
+      "sentences": [
+        { "en": "Good evening. I have a reservation.", "vi": "Chào buổi tối. Tôi có đặt phòng.", "ipa": "ɡʊd ˈiːvnɪŋ | aɪ hæv ə ˌrɛzərˈveɪʃən" },
+        { "en": "Welcome, sir. Let me check you in.", "vi": "Chào mừng anh. Để tôi làm thủ tục nhận phòng.", "ipa": "ˈwɛlkəm | sɜːr | lɛt miː tʃɛk juː ɪn" },
+        { "en": "Could I see your passport, please?", "vi": "Cho tôi xem hộ chiếu được không?", "ipa": "kʊd aɪ siː jɔːr ˈpæspɔːrt | pliːz" },
+        { "en": "Your room is on the 5th floor, room 502.", "vi": "Phòng của anh ở tầng 5, phòng 502.", "ipa": "jɔːr ruːm ɪz ɒn ðə fɪfθ flɔːr | ruːm faɪv oʊ tuː" },
+        { "en": "Does the room have free Wi-Fi?", "vi": "Phòng có Wi-Fi miễn phí không?", "ipa": "dʌz ðə ruːm hæv friː ˈwaɪ faɪ" },
+        { "en": "Yes, the password is on the key card.", "vi": "Có, mật khẩu ở trên thẻ phòng.", "ipa": "jes | ðə ˈpæswɜːrd ɪz ɒn ðə kiː kɑːrd" },
+        { "en": "What time is breakfast served?", "vi": "Bữa sáng được phục vụ lúc mấy giờ?", "ipa": "wɒt taɪm ɪz ˈbrɛkfəst sɜːrvd" },
+        { "en": "Breakfast is from 7 to 10 AM.", "vi": "Bữa sáng từ 7 đến 10 giờ sáng.", "ipa": "ˈbrɛkfəst ɪz frʌm ˈsɛvən tə tɛn eɪ ɛm" }
+      ],
+      "vocabulary": [
+        { "word": "reservation", "meaning": "đặt trước" },
+        { "word": "passport", "meaning": "hộ chiếu" },
+        { "word": "key card", "meaning": "thẻ phòng" },
+        { "word": "breakfast", "meaning": "bữa sáng" },
+        { "word": "welcome", "meaning": "chào mừng" },
+        { "word": "check in", "meaning": "nhận phòng" },
+        { "word": "floor", "meaning": "tầng" },
+        { "word": "room", "meaning": "phòng" },
+        { "word": "free", "meaning": "miễn phí" },
+        { "word": "password", "meaning": "mật khẩu" },
+        { "word": "served", "meaning": "được phục vụ" },
+        { "word": "have", "meaning": "có" }
+      ]
+    }
+  ]
+}

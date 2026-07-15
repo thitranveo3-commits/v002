@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Luyện Nói Tiếng Anh</title>
+  <!-- Cache-busted CSS & JS -->
+  <link rel="stylesheet" href="style.css?v=20260715.7">
+  <script src="script.js?v=20260715.7" defer></script>
+</head>
+<body class="min-h-screen">
+
+  <div id="app" class="min-h-screen flex flex-col">
+
+    <!-- ===== Header (glass) ===== -->
+    <header class="glass sticky">
+      <div class="container py-3 flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="text-2xl">🎤</div>
+          <div>
+            <h1 class="text-lg font-bold text-primary-700 leading-tight">Luyện Nói Tiếng Anh</h1>
+            <p class="text-xs text-gray-400 leading-tight hidden sm:block">Luyện tập giao tiếp mỗi ngày</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="darkModeToggle" class="text-base text-gray-400 hover:text-amber-500 px-2 py-1 rounded-lg hover:bg-amber-50 transition-all cursor-pointer select-none" title="Chế độ tối">
+            🌙
+          </button>
+          <button id="resetDataBtn" class="text-xs text-gray-400 hover:text-red-500 px-2 py-1 rounded-lg hover:bg-red-50 transition-all cursor-pointer select-none" title="Đặt lại dữ liệu gốc">
+            🔄 Reset
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ===== Content ===== -->
+    <div class="flex-1 w-full max-w-6xl mx-auto px-4 py-5 safe-bottom">
+
+      <!-- ── Home View ── -->
+      <div id="homeView" class="animate-fade-in">
+        <div class="flex items-center justify-between mb-5">
+          <div>
+            <h2 class="text-lg font-semibold text-gray-800">Hội thoại luyện tập</h2>
+            <p class="text-xs text-gray-400">Chọn một đoạn để bắt đầu</p>
+          </div>
+        </div>
+        <div id="conversationList" class="grid grid-cols-1 sm:grid-cols-2 gap-4"></div>
+      </div>
+
+      <!-- ── Mode Select View ── -->
+      <div id="modeSelectView" class="hidden animate-fade-in">
+        <div id="modeSelectContent"></div>
+      </div>
+
+      <!-- ── Practice View ── -->
+      <div id="practiceView" class="hidden animate-fade-in">
+        <div id="practiceContent"></div>
+      </div>
+
+      <!-- ── Vocabulary View ── -->
+      <div id="vocabView" class="hidden animate-fade-in">
+        <div id="vocabContent"></div>
+      </div>
+
+      <!-- ── Writing View ── -->
+      <div id="writingView" class="hidden animate-fade-in">
+        <div id="writingContent"></div>
+      </div>
+
+      <!-- ── Speak Fast View ── -->
+      <div id="speakFastView" class="hidden animate-fade-in">
+        <div id="speakFastContent"></div>
+      </div>
+
+      <!-- ── Player View ── -->
+      <div id="playerView" class="hidden animate-fade-in">
+        <div id="playerContent"></div>
+      </div>
+
+      <!-- ── Roleplay View ── -->
+      <div id="roleplayView" class="hidden animate-fade-in">
+        <div id="roleplayContent"></div>
+      </div>
+
+      <!-- ── Review View ── -->
+      <div id="reviewView" class="hidden animate-fade-in">
+        <div id="reviewContent"></div>
+      </div>
+
+      <!-- ── Stats View ── -->
+      <div id="statsView" class="hidden animate-fade-in">
+        <div id="statsContent"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== Footer ===== -->
+  <footer class="text-center py-4 text-sm text-gray-400 border-t border-gray-100">
+    Trần Đức Thi
+  </footer>
+
+</body>
+</html>
